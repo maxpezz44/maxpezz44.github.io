@@ -1,0 +1,374 @@
+/* Pour garantir une apparence homogène entre différents navigateurs */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tout votre code CSS doit se trouver en dessous de cette ligne */
+
+body{
+    background-color: #080808;
+    font-family: Montserrat, Arial;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 72rem;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    
+
+    .hover {
+        font-size: 1rem;
+        color: white;
+        padding: 0.5rem;
+        text-decoration: none;
+    }
+}
+
+.hover:hover {
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    transition: all 150ms ease;
+}
+
+#nom {
+    font-size: 1.2rem;
+    font-weight:bold;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+header {
+    .intro{
+        padding: 6rem 1rem;
+        text-align: center;
+        
+    }
+
+    h1{
+        font-size: 5rem;
+        color: white;
+        margin-bottom: 1.5rem;
+    }
+
+    p{
+        color: #B6B6B6;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    a{
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .img{
+        max-width: 72rem;
+        margin: auto;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .projet{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1.5rem 1rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+#contact {
+    border: 1px solid #4b4b4b;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#contact:hover {
+    color: black;
+    background-color: white;
+    transition: all 150ms ease;
+}
+
+main {
+    margin: auto;
+    max-width: 72rem;
+    padding: 0 1rem;
+
+    h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    p{
+        color: #B6B6B6;
+        font-size: 1rem;
+    }
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 6rem 0;
+
+    .img{
+        width: 40%;
+        max-width: 25rem;
+    }
+
+    img{
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 1rem;
+    }
+
+    .texte{
+        width: 52%;
+        max-width: 30rem;
+        padding: 1rem 0;
+    }
+}
+
+#projets {
+    h2{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+}
+
+.projets {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.seemore{
+    display: flex;
+    justify-content: left;
+    margin-left: 1rem;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30rem;
+    max-width: 100%;
+    margin-bottom: 3rem;
+
+    img{
+        width: 50%;
+        margin-right: 1rem ;
+        border-radius: 15px;
+    }
+
+    .texte{
+        width: 50%;
+        margin-right: 0.8rem;
+    }
+
+    .titre{
+        font-size: 0.7rem;
+        margin-bottom: 0.8rem;
+    }
+
+    h3{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.bas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 0 2rem;
+
+    p{
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    a{
+        color: #B6B6B6;
+        font-size: 0.8rem;
+        text-decoration: none;
+        margin-bottom: 1rem;
+    }
+}
+
+.section-contact{
+    margin: 6rem 0;
+}
+
+.contact-titre{
+    text-align: center;
+}
+
+.Contact-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 34rem;
+    margin: auto;
+    padding: 2rem;
+    background-color: #111111;
+    border: 1px solid #303030;
+    border-radius: 15px;
+
+    input, textarea{
+        width: 100%;
+        padding: 1rem;
+        background-color: #1A1A1A;
+        border: 1px solid #4b4b4b;
+        border-radius: 10px;
+        font-family: Montserrat, Arial;
+        font-size: 1rem;
+        color: white;
+    }
+
+    textarea{
+        height: 10rem;
+        resize: none;
+    }
+
+    p{
+        margin-top: 0.5rem;
+        color: #F0A0A0;
+        font-size: 0.85rem;
+    }
+
+    #submit-contact {
+        background-color: white;
+        border: 1px solid white;
+        color: #080808;
+        font-weight:bold;
+    }
+
+    #submit-contact:hover {
+        background-color: #B6B6B6;
+        border: 1px solid #B6B6B6;
+        transition: all 150ms ease;
+    }
+
+    .form-reussi{
+        color: #B6DDA5;
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+/* BOUTON MODE CLAIR / SOMBRE */
+
+#theme-button {
+    padding: 0.6rem 1rem;
+    background-color: white;
+    color: #080808;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: Montserrat, Arial;
+    font-size: 0.9rem;
+}
+
+#theme-button:hover {
+    background-color: #B6B6B6;
+    border: 1px solid #B6B6B6;
+}
+
+/* COULEURS DU MODE CLAIR */
+
+body.light-mode {
+    background-color: #F5F5F2;
+    color: #171717;
+
+    #nom, .hover, header h1, header a, .bas a{
+        color: #171717;
+    }
+
+    header p, main p{
+        color: #555555;
+    }
+
+    .hover:hover{
+        background-color: #171717;
+        color: white;
+    }
+
+    #contact{
+        border: 1px solid #B6B6B6;
+    }
+
+    #theme-button{
+        background-color: #171717;
+        color: white;
+        border: 1px solid #171717;
+    }
+
+    #theme-button:hover{
+        background-color: #353535;
+        border: 1px solid #353535;
+    }
+
+    .Contact-input{
+        background-color: white;
+        border: 1px solid #D2D2D2;
+
+        input, textarea{
+            background-color: #F5F5F5;
+            color: #171717;
+            border: 1px solid #B6B6B6;
+        }
+
+        p{
+            color: #B52B2B;
+        }
+
+        #submit-contact{
+            background-color: #171717;
+            color: white;
+            border: 1px solid #171717;
+        }
+
+        #submit-contact:hover{
+            background-color: #353535;
+            border: 1px solid #353535;
+        }
+
+        .form-reussi{
+            color: #24703A;
+        }
+    }
+}

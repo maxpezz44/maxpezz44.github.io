@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Maxime Pezzotta</title>
+</head>
+
+<body>
+    <!-- Tout votre HTML doit se trouver après cette ligne -->
+
+    <nav>
+        <div>
+            <a id="nom" href="#accueil">Maxime Pezzotta</a>
+        </div>
+
+        <div>
+            <a class="hover" href="#accueil">Accueil</a>
+            <a class="hover" href="#about">About me</a>
+            <a class="hover" href="#projets">Mes projets</a>
+            <a class="hover" href="#formulaire">Contact</a>
+        </div>
+
+        <div>
+            <button id="theme-button" type="button">Mode clair</button>
+        </div>
+    </nav>
+
+    <!-- NAVBAR AU DESSUS DE ICI -->
+
+    <header id="accueil">
+
+        <div class="intro">
+            <p>PORTFOLIO</p>
+            <h1>Maxime Pezzotta</h1>
+            <a class="hover" href="#projets">Découvrir mes projets ↓</a>
+        </div>
+
+        <div class="img">
+            <!-- image temporaire à remplacer -->
+            <video autoplay loop muted width="1150rem">
+                <source src="m2-res_1080p.mp4" type="video/mp4" />
+                
+            </video>
+
+            <div class="projet">
+                <h2>Projet en cours - Wildbound</h2>
+                <a id="contact" href="#projets">Voir les projets</a>
+            </div>
+            <a class="seemore" href="https://www.reddit.com/r/WildboundMod/">See more here</a>
+        </div>
+    </header>
+
+    <!-- HEADER AU DESSUS DE ICI -->
+
+    <main>
+        <div class="about" id="about">
+            <div class="img">
+                <!-- image temporaire à remplacer -->
+                <img src="Moi.png" alt="Maxime Pezzotta">
+            </div>
+
+            <div class="texte">
+                <h2>About me</h2>
+                <!-- image temporaire à remplacer -->
+                <p>
+                    Pres a add ici meme. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliquaconsectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliquaconsectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+                </div>
+            </div>
+        <!-- ABOUT ME AU DESSUS -->
+        <div id="projets">
+            <h2>Mes projets</h2>
+
+            <div class="projets">
+                <div class="card">
+                    <!-- Visueltemp -->
+                    <img src="projtest.png" alt="Visuel temp">
+
+                    <div class="texte">
+                        <p class="titre">VISUEL TEMPORAIRE</p>
+                        <h3>Projet 01</h3>
+                        <p>
+                            Nom et description du projet à ajouter ici. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+        <!-- CARDS PROJ EN DESSOUS -->
+                <div class="card">
+                    <!-- Visueltemp -->
+                    <img src="projtest.png" alt="Visuel temp">
+
+                    <div class="texte">
+                        <p class="titre">VISUEL TEMPORAIRE</p>
+                        <h3>Projet 02</h3>
+                        <p>
+                            Nom et description du projet à ajouter ici. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FORM LAISSER EN AVANT DERNIER ICI -->
+
+        <section class="section-contact" id="formulaire"> 
+            <h2 class="contact-titre">Contactez-moi</h2>
+
+            <form class="Contact-input" action="" novalidate>
+
+                <div>
+                    <input id="name-put" type="text" placeholder="Nom">
+                    <p class="name-error hidden">Veuillez indiquer votre nom.</p>
+                </div>
+
+                <div>
+                    <input id="email" type="email" placeholder="E-Mail">
+                    <p class="mail-error hidden">Veuillez indiquer votre email.</p>
+                </div>
+
+                <div>
+                    <textarea id="Message" placeholder="Message"></textarea>
+                    <p class="message-error hidden">Veuillez indiquer votre message.</p>
+                </div>
+
+                <input id="submit-contact" type="submit" value="Envoyer">
+                <p class="form-reussi hidden">Formulaire validé !</p>
+            </form>
+         </section>
+
+         <!-- BARRE DU BAS EN DESSOUS LAISSER A LA FIN DU FICHIER -->
+
+        <div class="bas">
+            <p>Maxime Pezzotta - Portfolio</p>
+            <a href="#accueil">Retour en haut ↑</a>
+        </div>
+
+
+
+    </main>
+    <!-- MAIN AU DESSUS DE ICI -->
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
